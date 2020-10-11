@@ -1,0 +1,30 @@
+<html lang="en" class="">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./upload.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Upload contact numbers</h2>
+        <div class="row">
+            <div class="column">
+                <textarea id="clients" rows="50"></textarea>
+            </div>
+            <div class="column right">
+                <div class="control">
+                    <div class="button" onclick="save()">Save</div>
+                    <div class="button" onclick="reset()">Reset</div>
+                    <div class="button" onclick="showWinners()">Winners</div>
+                </div>
+                <div>
+                        <textarea id="winners" rows="20" readonly ></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./upload.js"></script>
+</body>
+
+</html>

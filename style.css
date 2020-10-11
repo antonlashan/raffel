@@ -1,0 +1,68 @@
+body {
+    background: #333;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+h1#headerNames {
+    margin-top: 6%;
+    color: #fff;
+    font-family: Georgia, serif;
+    font-size: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+.button {
+    width: 150px;
+    margin: auto;
+    padding: 20px;
+    background: #1fa91f;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    cursor: pointer;
+}
+#stopButton {
+    background: #f00;
+    display: none;
+}
+
+#timer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: yellow;
+}
+
+.upload-link {
+    color: #000;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+#winner {
+    text-align: center;
+    color: yellow;
+    letter-spacing: 2px;
+    font-size: 90px;
+    margin-top: 6%;
+    text-transform: uppercase;
+    animation: mymove 1s infinite;
+    display: none;
+}
+
+@keyframes mymove {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 50px;
+   }
+}

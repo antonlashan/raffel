@@ -1,0 +1,57 @@
+body {
+    background: #333;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+}
+.column {
+    display: flex;
+    margin: 0 20px;
+}
+.column.right {
+    flex-direction: column;
+    align-items: center;
+}
+.column .control {
+display: flex;
+margin-bottom: 20px;
+}
+h2 {
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+.button {
+    margin-right: 10px;
+    padding: 20px;
+    background: #ee1c25;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    cursor: pointer;
+}
+
+#clients, #winners {
+    width: 500px;
+    border: 3px solid #777777;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #525252;
+}
+#winners{
+    background-color: #014e00;
+    font-size: 30px;
+    color: #e2ff01;
+    display: none;
+}
